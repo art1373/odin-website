@@ -2,12 +2,12 @@ import React from "react";
 import "../../App.scss";
 import "./HeroSection.scss";
 import { Button } from "../Button/Button";
-import VidSrc from "../../assets/videos/video-2.mp4";
+import { ImgVids } from "../../theme";
 
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src={VidSrc} autoPlay loop muted />
+      <video src={ImgVids.homeVid} autoPlay loop muted />
       <h1>ADVENTURE AWAITS</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btns">

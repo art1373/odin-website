@@ -1,9 +1,14 @@
 import React from "react";
 import "../../App.scss";
-import { HeroSection } from "../../components";
+import { HeroSection, Cards } from "../../components";
 
 function Home() {
-  return <HeroSection />;
+  return (
+    <>
+      <HeroSection />
+      <Cards />
+    </>
+  );
 }
 
 export default Home;
